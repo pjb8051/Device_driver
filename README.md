@@ -40,14 +40,16 @@ sudo rmmod ledkey_dev_pjb
 
 ioctl 함수를 위한 헤더파일 작성
 
-<그림>
+![image](https://github.com/pjb8051/Device_driver/assets/143582470/d2d20999-9572-4bdc-a4be-35353c75464f)
+
  - TIMER_STATRT : 커널 타이머 시작
  - TIMER_STOP : 커널 타이머 정지
  - TIMER_VALUE : led on /off 주기
 
 파일동작 구조체
 
-<그림>
+![image](https://github.com/pjb8051/Device_driver/assets/143582470/8d0e0f01-c55c-47ca-91f0-e4a3f97d74d0)
+
 
 문자 디바이스 드라이버와 응용 프로그램을 연결하기 위해서 파일 오퍼레이션 구조체를 사용해야 한다. 구조체를 선언하면 함수의 주소를 구조체 필드에 대입하고 커널에 등록한다.
 
@@ -62,4 +64,7 @@ ioctl 함수를 위한 헤더파일 작성
 
 3. 구현 결과
 
-<그림>
+
+https://github.com/pjb8051/Device_driver/assets/143582470/5be3c9f0-bef5-478f-8ed5-c0df4bdd1dd6
+
+
