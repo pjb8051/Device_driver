@@ -64,6 +64,13 @@ ioctl 함수를 위한 헤더파일 작성
 
 3. 구현 결과
 
+Use module
+```
+Raspberry Pi 4
+GPIO Extension Board
+Switch : AM-TS8-V2.0
+LED : AM-TL8
+```
 
 https://github.com/pjb8051/Device_driver/assets/143582470/5be3c9f0-bef5-478f-8ed5-c0df4bdd1dd6
 
